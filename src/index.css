@@ -106,9 +106,7 @@ header {
   transition-timing-function: ease-out;
 }
 
-.link:hover:after,
-.link:focus:after,
-.link:active:after {
+.link:hover:after {
   right: 0;
 }
 
