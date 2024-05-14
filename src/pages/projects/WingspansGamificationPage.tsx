@@ -104,7 +104,7 @@ export default function WingspansGamificationPage() {
           <p>
             Since launching the gamification features in August, Wingspans has experienced a substantial increase in
             user engagement. Specifically, average site view time escalated from 15 minutes and 22 seconds to nearly 22
-            minutes by November—an increase of approximately 70%! This significant growth in engagement time underscores
+            minutes by November—an <b>increase of approximately 70%!</b> This significant growth in engagement time underscores
             the success of the gamification strategy.
           </p>
           <div className="project-pics">
