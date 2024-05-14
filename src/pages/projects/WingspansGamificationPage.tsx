@@ -23,7 +23,7 @@ export default function WingspansGamificationPage() {
             Wingspans is an educational platform dedicated to assisting nontraditional learners in advancing their
             careers. Currently serving over 50,000 users across more than 30 schools, we offer a variety of resources
             including career stories, resume builders, and tailored career plans. Recognizing the need to increase user
-            engagement, my CEO tasked me with exploring new strategies. After discussionx, we decided to implement
+            engagement, my CEO tasked me with exploring new strategies. After discussion, we decided to implement
             gamification as a method to boost user retention and engagement. This approach would reward users with
             points for interacting with the site, such as reading a story or bookmarking a career. Consequently, I was
             charged with the responsibility of developing this gamification system.
