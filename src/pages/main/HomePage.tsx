@@ -19,7 +19,7 @@ export default function HomePage() {
           </p>
           <p>
             I'm currently a Software Engineering Intern at <b>USAA Bank</b>, developing backend solutions to securely
-            deliver user data. Previously, I was a SWE at <b>Wingspans (Techstars startup)</b>, a researcher at Brown
+            deliver user data. Previously, I was a SWE intern at <b>Wingspans</b>, a researcher at Brown
             CNTR lab, and a project manager at Full Stack @ Brown.
           </p>
           <p>When I'm not coding, you can find me running by the river, reading YA novels, or watching NBA.</p>
