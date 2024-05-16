@@ -8,21 +8,21 @@ export default function ProjectsPage() {
         <img className="project-item-img" src="../images/spotiduo/card.png" alt="SpotiDuo" />
         <h1 className="project-item-header">SpotiDuo</h1>
         <p className="project-item-subtitle">Music-based Language Learning Application</p>
-        <p className="project-item-tool">React/JS, Java</p>
+        <p className="project-item-tool">Full Stack | React/JS, Java</p>
       </Link>
 
       <Link className="project-item" to="/projects/aeroforecast">
         <img className="project-item-img" src="../images/aero-forecast/card.png" alt="AeroForecast" />
         <h1 className="project-item-header">AeroForecast</h1>
         <p className="project-item-subtitle">AI-Powered Weather Forecasting</p>
-        <p className="project-item-tool">Pytorch, Machine Learning</p>
+        <p className="project-item-tool">Machine Learning | Pytorch</p>
       </Link>
 
        <Link className="project-item" to="/projects/gamification">
         <img className="project-item-img" src="../images/gamification/card.png" alt="Wingspans Gamification" />
         <h1 className="project-item-header">Wingspans Gamification</h1>
         <p className="project-item-subtitle">Gamifying Wingspans Site</p>
-        <p className="project-item-tool">React, Firestore, Figma</p>
+        <p className="project-item-tool">Full Stack | React, Firestore, Figma</p>
       </Link>
       
       <Link className="project-item" to="/projects/sports">

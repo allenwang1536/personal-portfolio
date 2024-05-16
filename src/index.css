@@ -241,6 +241,12 @@ header {
   padding: 5rem 15% 4rem 10%;
 }
 
+.outline {
+  animation: fadeInOutlineAnimation 1s ease;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+}
+
 .with-outline .project {
   padding: 0;
   margin-left: 2rem;
@@ -453,6 +459,15 @@ header {
   } 
   100% { 
     opacity: 1; 
+  } 
+} 
+
+@keyframes fadeInOutlineAnimation { 
+  0% { 
+    opacity: 0; 
+  } 
+  100% { 
+    opacity: 0.5; 
   } 
 } 
 
