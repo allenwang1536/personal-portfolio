@@ -22,7 +22,7 @@ export default function AeroForecastPage() {
           <a href="https://github.com/allenwang1536/aero-forecast.git" target="_blank" rel="noreferrer">
             <u>Github</u>
           </a>
-          , Video
+        
         </p>
       </div>
       <div className="project-header" id="universal-overview">
