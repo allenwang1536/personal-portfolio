@@ -633,7 +633,7 @@ header {
   #main-container {
     padding-top: 9rem;
   }
-  .project {
+  .with-outline .project, .project {
     padding-top: 8rem;
   }
 }
