@@ -24,6 +24,13 @@ export default function ProjectsPage() {
         <p className="project-item-subtitle">Gamifying Wingspans Site</p>
         <p className="project-item-tool">Full Stack | React, Firestore, Figma</p>
       </Link>
+
+      <Link className="project-item" to="/projects/ignitecs">
+        <img className="project-item-img" src="../images/ignite-cs/card.png" alt="IgniteCS Project Management" />
+        <h1 className="project-item-header">IgniteCS PM</h1>
+        <p className="project-item-subtitle">Project Managing IgniteCS</p>
+        <p className="project-item-tool">Project Management | Github Projects, React</p>
+      </Link>
       
       <Link className="project-item" to="/projects/sports">
         <img className="project-item-img" src="../images/sports-shop/card.png" alt="Sports Card Shop" />

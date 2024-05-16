@@ -10,6 +10,7 @@ import WingspansGamificationPage from "./pages/projects/WingspansGamificationPag
 import EastSidePocketsPage from "./pages/projects/EastSidePocketsPage";
 import SportsCardShop from "./pages/projects/SportsCardShop";
 import ResumePage from "./pages/main/ResumePage";
+import IgniteCSPage from "./pages/projects/IgniteCSPage";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -35,6 +36,7 @@ function App() {
           <Route path="/projects/spotiduo" element={<SpotiDuoPage />} />
           <Route path="/projects/aeroforecast" element={<AeroForecastPage />} />
           <Route path="/projects/gamification" element={<WingspansGamificationPage />} />
+          <Route path="/projects/ignitecs" element={<IgniteCSPage />} />
           <Route path="/projects/eastsidepockets" element={<EastSidePocketsPage />} />
           <Route path="/projects/sports" element={<SportsCardShop />} />
         </Routes>
