@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #ECF0F1;
+  font-family: 'Source Serif Pro', serif;
 }
 
 * {
@@ -235,6 +236,16 @@ header {
   font-size: 1.2rem;
 }
 
+.with-outline {
+  display: flex;
+  padding: 5rem 2rem 4rem 2rem;
+}
+
+.with-outline .project {
+  padding: 0;
+  margin-left: 2rem;
+}
+
 .behind {
   left: 0;
   z-index: -1;
@@ -307,12 +318,20 @@ header {
   border-left: 1rem solid black;
 }
 
+#universal-overview {
+  border-left: 1rem solid black;
+}
+
 #rapt-header {
   border-left: 1rem solid black;
 }
 
 .project-name {
   margin: 5rem 0 0 1.5rem;
+}
+
+.project-header {
+  border-left: 1rem solid black;
 }
 
 .project-heading {
@@ -406,7 +425,7 @@ header {
 }
 
 /* resume */
-#resume-header {
+.resume-header {
   position: relative;
 }
 

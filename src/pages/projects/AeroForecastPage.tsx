@@ -1,20 +1,31 @@
 import React from "react";
+import useScrollToSection from "../../hooks/useScrollToSection";
+import { Section } from "../../types";
+import Outline from "../../components/Outline";
 
 export default function AeroForecastPage() {
+  const sections: Section[] = [
+    { id: "universal-overview", title: "Overview", level: 2 },
+    { id: "project-methodology", title: "Project Methodology", level: 2 },
+    { id: "conclusion", title: "A Few Thoughts..", level: 2 },
+  ];
+  const scrollToSection = useScrollToSection();
   return (
-    <div className="project">
+    <div className="with-outline">
+       <Outline outline={sections} handleClick={scrollToSection} />
+      <div className="project">
       <div className="project-header" id="rapt-header">
         <h1 className="project-name">AeroForecast</h1>
         <p className="project-subheading">AI-Powered Weather Forecasting</p>
         <p className="project-subheading">Pytorch, Machine Learning | Spring 2024</p>
         <p className="project-subheading project-github">
-          <a href="https://github.com/allenwang1536/aero-forecast.git" target="_blank">
+          <a href="https://github.com/allenwang1536/aero-forecast.git" target="_blank" rel="noreferrer">
             <u>Github</u>
           </a>
           , Video
         </p>
       </div>
-      <div className="project-header" id="rapt-header">
+      <div className="project-header" id="universal-overview">
         <h2 className="project-heading">Overview</h2>
       </div>
       <div className="project-text">
@@ -48,7 +59,7 @@ export default function AeroForecastPage() {
           </p>
         </div>
       </div>
-      <div className="project-header" id="rapt-header">
+      <div className="project-header" id="project-methodology">
         <h2 className="project-heading">Project Methodology</h2>
       </div>
       <div className="project-text">
@@ -168,5 +179,8 @@ export default function AeroForecastPage() {
         </ul>
       </div>
     </div>
+
+    </div>
+    
   );
 }

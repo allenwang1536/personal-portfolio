@@ -1,0 +1,8 @@
+.outline {
+    margin-top: 5rem;
+    position: sticky;
+    top: 2rem;
+    align-self: flex-start;
+    font-style: italic;
+    opacity: 0.5;
+}

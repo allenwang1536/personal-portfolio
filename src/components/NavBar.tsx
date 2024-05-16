@@ -9,7 +9,7 @@ export default function NavBar() {
 
 
   return (
-    <header id={hasResume ? "resume-header" : ""}>
+    <header className={hasResume ? "resume-header" : ""} id="header">
       <h2 id="name">
         <a href="/">Allen Wang</a>
       </h2>
