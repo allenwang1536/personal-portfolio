@@ -510,6 +510,10 @@ header {
     padding-top: 1.5rem;
     margin: 0;
   }
+  .with-outline .project, .project {
+    margin: 0;
+    padding: 5rem 15% 4rem 15%;
+  }
 }
 
 /* resize projects */
