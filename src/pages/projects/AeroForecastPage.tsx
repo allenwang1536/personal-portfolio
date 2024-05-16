@@ -74,7 +74,7 @@ export default function AeroForecastPage() {
             format for our models was [batch_size, sequence_len, features, num_grids_y, num_grids_x].
           </p>
           <div className="project-pics">
-            <img src="../../images/aero-forecast/preprocessed-data.png" className="project-pic-half-medium" />
+            <img src="../../images/aero-forecast/preprocessed-data.png" className="project-pic-half-large" />
             <img
               src="../../images/aero-forecast/sequence.png"
               className="project-pic-half-small"
@@ -103,7 +103,7 @@ export default function AeroForecastPage() {
             </li>
           </ul>
           <div className="project-pics">
-            <img src="../../images/aero-forecast/lstm-transformer.png" className="project-pic-half-medium" />
+            <img src="../../images/aero-forecast/lstm-transformer.png" className="project-pic-medium" />
           </div>
           <p>Simultaneous Processing (Convolutional LSTM)</p>
           <ul>
@@ -119,7 +119,7 @@ export default function AeroForecastPage() {
             </li>
           </ul>
           <div className="project-pics">
-            <img src="../../images/aero-forecast/conv-lstm.png" className="project-pic-half-medium" />
+            <img src="../../images/aero-forecast/conv-lstm.png" className="project-pic-medium" />
           </div>
         </div>
         <div className="project-section">
@@ -140,8 +140,8 @@ export default function AeroForecastPage() {
           </p>
           <p />
           <div className="project-pics">
-            <img src="../../images/aero-forecast/testing-loss.png" className="project-pic-half-medium" />
-            <img src="../../images/aero-forecast/accuracy.png" className="project-pic-half-medium" />
+            <img src="../../images/aero-forecast/testing-loss.png" className="project-pic-half-large" />
+            <img src="../../images/aero-forecast/accuracy.png" className="project-pic-half-large" />
           </div>
           <p>
             The analysis revealed that the ConvLSTM model outperformed the CNN-LSTM and CNN-Transformer in forecasting

@@ -113,7 +113,7 @@ export default function SpotiDuoPage() {
               and by generating a new verifier and challenge for each attempt, it ensures strong security practices.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/oauth.png" className="project-pic-half-large" />
+              <img src="../../images/spotiduo/oauth.png" className="project-pic-large" />
             </div>
             <p>
               <i>Challenge: </i> Initially, users had to log in repeatedly due to token expiration. To fix this, I
@@ -136,8 +136,8 @@ export default function SpotiDuoPage() {
               integrate with the front-end later on in game logic.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/settings.png" className="project-pic-half-medium" />
-              <img src="../../images/spotiduo/lyrics-response.png" className="project-pic-half-medium" />
+              <img src="../../images/spotiduo/settings.png" className="project-pic-half-large" />
+              <img src="../../images/spotiduo/lyrics-response.png" className="project-pic-half-large" />
             </div>
             <p>
               <i>Challenge: </i>The Musixmatch API doesn't provide lyrics for every song on Spotify, so after
@@ -174,7 +174,7 @@ export default function SpotiDuoPage() {
               songs that closely match those traits using the Spotify API.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/recommendations.png" className="project-pic-half-medium" />
+              <img src="../../images/spotiduo/recommendations.png" className="project-pic-half-large" />
               <img src="../../images/spotiduo/recommendation-features.png" className="project-pic-half-large" />
             </div>
           </div>
