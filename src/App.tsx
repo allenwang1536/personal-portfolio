@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
@@ -24,6 +24,24 @@ function ScrollToTop() {
 
 
 function App() {
+  const [addClass, setAddClass] = useState(window.innerWidth > 968);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setAddClass(window.innerWidth > 968);
+    };
+
+    // Add event listener
+    window.addEventListener('resize', handleResize);
+
+    // Call handler right away so state gets updated with initial window size
+    handleResize();
+
+    // Remove event listener on cleanup
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <div className="App">
       <Router>
@@ -33,7 +51,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/resume" element={<ResumePage />} />
-          <Route path="/projects/spotiduo" element={<SpotiDuoPage />} />
+          <Route path="/projects/spotiduo" element={<SpotiDuoPage withOutline={addClass}/>} />
           <Route path="/projects/aeroforecast" element={<AeroForecastPage />} />
           <Route path="/projects/gamification" element={<WingspansGamificationPage />} />
           <Route path="/projects/ignitecs" element={<IgniteCSPage />} />

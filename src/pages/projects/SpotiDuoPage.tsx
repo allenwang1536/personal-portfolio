@@ -3,7 +3,7 @@ import useScrollToSection from "../../hooks/useScrollToSection";
 import Outline from "../../components/Outline";
 import { Section } from "../../types";
 
-export default function SpotiDuoPage() {
+export default function SpotiDuoPage({ withOutline } : { withOutline : boolean}) {
   const sections: Section[] = [
     { id: "universal-overview", title: "Overview", level: 2 },
     { id: "technical-features", title: "Technical Features", level: 2 },
@@ -13,7 +13,7 @@ export default function SpotiDuoPage() {
   const scrollToSection = useScrollToSection();
 
   return (
-    <div className="with-outline">
+    <div className={withOutline ? "with-outline" : ""}>
       <Outline outline={sections} handleClick={scrollToSection} />
       <div className="project">
         <div className="project-header" id="maps-header">
