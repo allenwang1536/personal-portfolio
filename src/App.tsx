@@ -24,7 +24,7 @@ function ScrollToTop() {
 
 
 function App() {
-  const [addClass, setAddClass] = useState(window.innerWidth > 968);
+  const [addClass, setAddClass] = useState(window.innerWidth > 1100);
 
   useEffect(() => {
     const handleResize = () => {
@@ -52,9 +52,9 @@ function App() {
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/projects/spotiduo" element={<SpotiDuoPage withOutline={addClass}/>} />
-          <Route path="/projects/aeroforecast" element={<AeroForecastPage />} />
-          <Route path="/projects/gamification" element={<WingspansGamificationPage />} />
-          <Route path="/projects/ignitecs" element={<IgniteCSPage />} />
+          <Route path="/projects/aeroforecast" element={<AeroForecastPage withOutline={addClass}/>} />
+          <Route path="/projects/gamification" element={<WingspansGamificationPage withOutline={addClass}/>} />
+          <Route path="/projects/ignitecs" element={<IgniteCSPage withOutline={addClass}/>} />
           <Route path="/projects/eastsidepockets" element={<EastSidePocketsPage />} />
           <Route path="/projects/sports" element={<SportsCardShop />} />
         </Routes>

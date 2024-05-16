@@ -3,7 +3,7 @@ import { Section } from "../../types";
 import useScrollToSection from "../../hooks/useScrollToSection";
 import Outline from "../../components/Outline";
 
-export default function IgniteCSPage() {
+export default function IgniteCSPage({ withOutline } : { withOutline : boolean}) {
   const sections: Section[] = [
     { id: "universal-overview", title: "Overview", level: 2 },
     { id: "project-process", title: "Project Process", level: 2 },
@@ -11,7 +11,7 @@ export default function IgniteCSPage() {
   ];
   const scrollToSection = useScrollToSection();
   return (
-    <div className="with-outline">
+    <div className={withOutline ? "with-outline" : ""}>
       <Outline outline={sections} handleClick={scrollToSection} />
       <div className="project">
         <div className="project-header" id="rapt-header">

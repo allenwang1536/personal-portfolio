@@ -3,7 +3,7 @@ import useScrollToSection from "../../hooks/useScrollToSection";
 import { Section } from "../../types";
 import Outline from "../../components/Outline";
 
-export default function AeroForecastPage() {
+export default function AeroForecastPage({ withOutline } : { withOutline : boolean}) {
   const sections: Section[] = [
     { id: "universal-overview", title: "Overview", level: 2 },
     { id: "project-methodology", title: "Project Methodology", level: 2 },
@@ -11,7 +11,7 @@ export default function AeroForecastPage() {
   ];
   const scrollToSection = useScrollToSection();
   return (
-    <div className="with-outline">
+    <div className={withOutline ? "with-outline" : ""}>
        <Outline outline={sections} handleClick={scrollToSection} />
       <div className="project">
       <div className="project-header" id="rapt-header">

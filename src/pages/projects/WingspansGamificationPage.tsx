@@ -3,7 +3,7 @@ import { Section } from "../../types";
 import useScrollToSection from "../../hooks/useScrollToSection";
 import Outline from "../../components/Outline";
 
-export default function WingspansGamificationPage() {
+export default function WingspansGamificationPage({ withOutline } : { withOutline : boolean}) {
   const sections: Section[] = [
     { id: "universal-overview", title: "Overview", level: 2 },
     { id: "technical-features", title: "Technical Features", level: 2 },
@@ -12,7 +12,7 @@ export default function WingspansGamificationPage() {
   ];
   const scrollToSection = useScrollToSection();
   return (
-    <div className="with-outline">
+    <div className={withOutline ? "with-outline" : ""}>
       <Outline outline={sections} handleClick={scrollToSection} />
       <div className="project">
         <div className="project-header" id="maps-header">
