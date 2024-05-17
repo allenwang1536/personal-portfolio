@@ -113,7 +113,7 @@ export default function SpotiDuoPage({ withOutline } : { withOutline : boolean})
               and by generating a new verifier and challenge for each attempt, it ensures strong security practices.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/oauth.png" className="project-pic-large" alt="Spotify OAuth"/>
+              <img src="../../images/spotiduo/oauth.gif" className="project-pic-large" alt="Spotify OAuth"/>
             </div>
             <p>
               <i>Challenge: </i> Initially, users had to log in repeatedly due to token expiration. To fix this, I
@@ -136,8 +136,7 @@ export default function SpotiDuoPage({ withOutline } : { withOutline : boolean})
               integrate with the front-end later on in game logic.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/settings.png" className="project-pic-half-large" alt="SpotiDuo Settings"/>
-              <img src="../../images/spotiduo/lyrics-response.png" className="project-pic-half-large" alt="Lyric Response Object"/>
+              <img src="../../images/spotiduo/settings.gif" className="project-pic-large" alt="SpotiDuo Settings"/>
             </div>
             <p>
               <i>Challenge: </i>The Musixmatch API doesn't provide lyrics for every song on Spotify, so after
@@ -158,7 +157,7 @@ export default function SpotiDuoPage({ withOutline } : { withOutline : boolean})
               sequences, to award partial credit for near-correct answers.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/game.png" className="project-pic-large" />
+              <img src="../../images/spotiduo/game.gif" className="project-pic-large" alt="SpotiDuo Game"/>
             </div>
             <p>
               <i>Challenge: </i> Aligning music with external lyrics was tricky because Spotify doesn't offer continuous
@@ -174,8 +173,7 @@ export default function SpotiDuoPage({ withOutline } : { withOutline : boolean})
               songs that closely match those traits using the Spotify API.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/recommendations.png" className="project-pic-half-large" alt="SpotiDuo Personalized Recommendations"/>
-              <img src="../../images/spotiduo/recommendation-features.png" className="project-pic-half-large" alt="Recommendation Features"/>
+              <img src="../../images/spotiduo/recommendations.gif" className="project-pic-large" alt="SpotiDuo Personalized Recommendations"/>
             </div>
           </div>
         </div>
