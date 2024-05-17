@@ -241,15 +241,15 @@ header {
   padding: 5rem 15% 4rem 10%;
 }
 
+.with-outline .project {
+  padding: 0;
+  margin-left: 3rem;
+}
+
 .outline {
   animation: fadeInOutlineAnimation 1s ease;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards;
-}
-
-.with-outline .project {
-  padding: 0;
-  margin-left: 3rem;
 }
 
 .behind {
@@ -510,7 +510,7 @@ header {
     padding-top: 1.5rem;
     margin: 0;
   }
-  .with-outline .project, .project {
+  .project {
     margin: 0;
     padding: 5rem 15% 4rem 15%;
   }
@@ -637,7 +637,7 @@ header {
   #main-container {
     padding-top: 9rem;
   }
-  .with-outline .project, .project {
+  .project {
     padding-top: 8rem;
   }
 }

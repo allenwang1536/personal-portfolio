@@ -74,11 +74,12 @@ export default function AeroForecastPage({ withOutline } : { withOutline : boole
             format for our models was [batch_size, sequence_len, features, num_grids_y, num_grids_x].
           </p>
           <div className="project-pics">
-            <img src="../../images/aero-forecast/preprocessed-data.png" className="project-pic-half-large" />
+            <img src="../../images/aero-forecast/preprocessed-data.png" className="project-pic-half-large" alt="Preprocessed data"/>
             <img
               src="../../images/aero-forecast/sequence.png"
               className="project-pic-half-small"
               style={{ width: 500, objectFit: "contain" }}
+              alt="Sequence Data"
             />
           </div>
           <p>
@@ -103,7 +104,7 @@ export default function AeroForecastPage({ withOutline } : { withOutline : boole
             </li>
           </ul>
           <div className="project-pics">
-            <img src="../../images/aero-forecast/lstm-transformer.png" className="project-pic-medium" />
+            <img src="../../images/aero-forecast/lstm-transformer.png" className="project-pic-medium" alt="CNN-LSTM + CNN-Transformer Model Architecture"/>
           </div>
           <p>Simultaneous Processing (Convolutional LSTM)</p>
           <ul>
@@ -119,7 +120,7 @@ export default function AeroForecastPage({ withOutline } : { withOutline : boole
             </li>
           </ul>
           <div className="project-pics">
-            <img src="../../images/aero-forecast/conv-lstm.png" className="project-pic-medium" />
+            <img src="../../images/aero-forecast/conv-lstm.png" className="project-pic-medium" alt="Convolutional LSTM Model Architecture"/>
           </div>
         </div>
         <div className="project-section">
@@ -129,7 +130,7 @@ export default function AeroForecastPage({ withOutline } : { withOutline : boole
             training loss in the graph below.
           </p>
           <div className="project-pics">
-            <img src="../../images/aero-forecast/training-curve.png" className="project-pic-half-large" />
+            <img src="../../images/aero-forecast/training-curve.png" className="project-pic-half-large" alt="Training Curve"/>
           </div>
           <p>
             To evaluate our models, we calculated testing loss and accuracy from their predictions, normalized using the
@@ -140,8 +141,8 @@ export default function AeroForecastPage({ withOutline } : { withOutline : boole
           </p>
           <p />
           <div className="project-pics">
-            <img src="../../images/aero-forecast/testing-loss.png" className="project-pic-half-large" />
-            <img src="../../images/aero-forecast/accuracy.png" className="project-pic-half-large" />
+            <img src="../../images/aero-forecast/testing-loss.png" className="project-pic-half-large" alt="Testing Loss"/>
+            <img src="../../images/aero-forecast/accuracy.png" className="project-pic-half-large" alt="Accuracy"/>
           </div>
           <p>
             The analysis revealed that the ConvLSTM model outperformed the CNN-LSTM and CNN-Transformer in forecasting

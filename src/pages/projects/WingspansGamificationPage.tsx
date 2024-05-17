@@ -70,7 +70,7 @@ export default function WingspansGamificationPage({ withOutline } : { withOutlin
               the user interface on the front-end was also updated to show the new points.
             </p>
             <div className="project-pics">
-              <img src="../../images/gamification/points.png" className="project-pic-medium" />
+              <img src="../../images/gamification/points.png" className="project-pic-medium" alt="Points Planning Spreadsheet"/>
             </div>
             <p>
               <i>Challenge:</i> I faced a challenge with the point updates. Since these updates relied on the backend,
@@ -95,7 +95,7 @@ export default function WingspansGamificationPage({ withOutline } : { withOutlin
               total qualifies them for a level up, the modal appears immediately, celebrating their achievement.
             </p>
             <div className="project-pics">
-              <img src="../../images/gamification/tiers.png" className="project-pic-medium" />
+              <img src="../../images/gamification/tiers.png" className="project-pic-medium" alt="Tiers Planning Spreadsheet"/>
             </div>
             <p>
               <i>Challenge:</i> This project marked my first experience with implementing modals. Unlike regular page
@@ -120,7 +120,7 @@ export default function WingspansGamificationPage({ withOutline } : { withOutlin
               underscores the success of the gamification strategy.
             </p>
             <div className="project-pics">
-              <img src="../../images/gamification/level-up.png" className="project-pic-large" />
+              <img src="../../images/gamification/level-up.png" className="project-pic-large" alt="Wingspans Level Up Modal"/>
             </div>
           </div>
           <div className="project-section">
@@ -133,7 +133,7 @@ export default function WingspansGamificationPage({ withOutline } : { withOutlin
               platform, taking the gamification aspect even more seriously.
             </p>
             <div className="project-pics">
-              <img src="../../images/gamification/side-notifications.png" className="project-pic-large" />
+              <img src="../../images/gamification/side-notifications.png" className="project-pic-large" alt="Wingspans Points Notifications"/>
             </div>
           </div>
         </div>

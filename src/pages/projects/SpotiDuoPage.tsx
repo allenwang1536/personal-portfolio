@@ -113,7 +113,7 @@ export default function SpotiDuoPage({ withOutline } : { withOutline : boolean})
               and by generating a new verifier and challenge for each attempt, it ensures strong security practices.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/oauth.png" className="project-pic-large" />
+              <img src="../../images/spotiduo/oauth.png" className="project-pic-large" alt="Spotify OAuth"/>
             </div>
             <p>
               <i>Challenge: </i> Initially, users had to log in repeatedly due to token expiration. To fix this, I
@@ -136,8 +136,8 @@ export default function SpotiDuoPage({ withOutline } : { withOutline : boolean})
               integrate with the front-end later on in game logic.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/settings.png" className="project-pic-half-large" />
-              <img src="../../images/spotiduo/lyrics-response.png" className="project-pic-half-large" />
+              <img src="../../images/spotiduo/settings.png" className="project-pic-half-large" alt="SpotiDuo Settings"/>
+              <img src="../../images/spotiduo/lyrics-response.png" className="project-pic-half-large" alt="Lyric Response Object"/>
             </div>
             <p>
               <i>Challenge: </i>The Musixmatch API doesn't provide lyrics for every song on Spotify, so after
@@ -174,8 +174,8 @@ export default function SpotiDuoPage({ withOutline } : { withOutline : boolean})
               songs that closely match those traits using the Spotify API.
             </p>
             <div className="project-pics">
-              <img src="../../images/spotiduo/recommendations.png" className="project-pic-half-large" />
-              <img src="../../images/spotiduo/recommendation-features.png" className="project-pic-half-large" />
+              <img src="../../images/spotiduo/recommendations.png" className="project-pic-half-large" alt="SpotiDuo Personalized Recommendations"/>
+              <img src="../../images/spotiduo/recommendation-features.png" className="project-pic-half-large" alt="Recommendation Features"/>
             </div>
           </div>
         </div>
