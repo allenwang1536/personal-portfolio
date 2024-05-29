@@ -55,8 +55,8 @@ function App() {
           <Route path="/projects/aeroforecast" element={<AeroForecastPage withOutline={addClass}/>} />
           <Route path="/projects/gamification" element={<WingspansGamificationPage withOutline={addClass}/>} />
           <Route path="/projects/ignitecs" element={<IgniteCSPage withOutline={addClass}/>} />
-          <Route path="/projects/eastsidepockets" element={<EastSidePocketsPage />} />
-          <Route path="/projects/sports" element={<SportsCardShop />} />
+          {/* <Route path="/projects/eastsidepockets" element={<EastSidePocketsPage />} /> */}
+          {/* <Route path="/projects/sports" element={<SportsCardShop />} /> */}
         </Routes>
       </Router>
     </div>
@@ -64,7 +64,4 @@ function App() {
 }
 
 export default App;
-function withRouter(ScrollToTop: ({ history }: { history: any; }) => null) {
-  throw new Error("Function not implemented.");
-}
 

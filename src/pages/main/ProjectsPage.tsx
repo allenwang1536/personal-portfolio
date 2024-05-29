@@ -32,7 +32,7 @@ export default function ProjectsPage() {
         <p className="project-item-tool">Project Management | Github Projects, React</p>
       </Link>
       
-      <Link className="project-item" to="/projects/sports">
+      {/* <Link className="project-item" to="/projects/sports">
         <img className="project-item-img" src="../images/sports-shop/card.png" alt="Sports Card Shop" />
         <h1 className="project-item-header">Sports Card Shop</h1>
         <p className="project-item-subtitle">Retro Sports Card Shope</p>
@@ -44,7 +44,7 @@ export default function ProjectsPage() {
         <h1 className="project-item-header">East Side Pockets</h1>
         <p className="project-item-subtitle">Redesigning and Creating East Side Pockets Site</p>
         <p className="project-item-tool">HTML/CSS, Figma</p>
-      </Link>
+      </Link> */}
     </div>
   );
 }
