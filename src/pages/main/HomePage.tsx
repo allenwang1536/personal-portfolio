@@ -18,7 +18,7 @@ export default function HomePage() {
             as I take on different projects.
           </p>
           <p>
-            I'm currently a Software Engineering Intern at <b>USAA Bank</b>, developing backend solutions to securely
+            I recently completed a SWE Internship at <b>USAA Bank</b>, where I developed backend solutions to securely
             deliver user data. Previously, I was a SWE intern at <a href="https://www.wingspans.com/" target="_blank">Wingspans (Tech Stars '24)</a>, a researcher at <a href="https://vivo.brown.edu/display/suresh#" target="_blank">Brown
             CNTR lab</a>, and a project manager at <a href="https://fullstackatbrown.github.io/website/" target="_blank"> Full Stack @ Brown </a>.
           </p>
