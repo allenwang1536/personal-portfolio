@@ -10,7 +10,7 @@ export default function HomePage() {
         </h1>
         <div id="intro">
           <p>
-            I'm a rising junior at <b>Brown University</b> studying Computer Science.
+            I'm a student at <b>Brown University</b> studying Computer Science.
           </p>
           <p>
             I enjoy working on software that brings interesting ideas to life. Thus far, it's led me to building out{" "}
