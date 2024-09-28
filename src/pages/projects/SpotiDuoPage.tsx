@@ -19,7 +19,7 @@ export default function SpotiDuoPage({ withOutline } : { withOutline : boolean})
         <div className="project-header" id="maps-header">
           <h1 className="project-name">SpotiDuo</h1>
           <p className="project-subheading">Music-based Language Learning Application</p>
-          <p className="project-subheading">React/JS, Java | Fall 2023</p>
+          <p className="project-subheading">React/JS, Java | Spring 2024</p>
           <p className="project-subheading project-github">
             <a href="https://github.com/allenwang1536/spotiduo" target="_blank" rel="noreferrer">
               <u>Github</u>
