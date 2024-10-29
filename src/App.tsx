@@ -50,7 +50,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/resume" element={<ResumePage />} />
+          {/* <Route path="/resume" element={<ResumePage />} /> */}
           <Route path="/projects/spotiduo" element={<SpotiDuoPage withOutline={addClass}/>} />
           <Route path="/projects/aeroforecast" element={<AeroForecastPage withOutline={addClass}/>} />
           <Route path="/projects/gamification" element={<WingspansGamificationPage withOutline={addClass}/>} />

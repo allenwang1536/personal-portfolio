@@ -21,9 +21,10 @@ export default function NavBar() {
           <li>
             <NavLink to="/projects" className={({ isActive }) => (isActive ? 'link-current' : 'link')}>Projects</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/resume" className={({ isActive }) => (isActive ? 'link-current' : 'link')}>Resume</NavLink>
-          </li>
+          </li> */}
+         
         </ul>
       </nav>
     </header>
