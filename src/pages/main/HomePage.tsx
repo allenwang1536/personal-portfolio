@@ -13,11 +13,6 @@ export default function HomePage() {
             I'm a student at <b>Brown University</b> studying Computer Science.
           </p>
           <p>
-            I enjoy working on software that brings interesting ideas to life. Thus far, it's led me to building out{" "}
-            <b>full-stack applications</b> and <b>machine learning models</b>, but I'm always learning new technologies
-            as I take on different projects.
-          </p>
-          <p>
             I recently completed a SWE Internship at <b>USAA Bank</b>, where I developed backend solutions to securely
             deliver user data. Previously, I was a SWE intern at <a href="https://www.wingspans.com/" target="_blank">Wingspans (Tech Stars '24)</a>, a researcher at <a href="https://vivo.brown.edu/display/suresh#" target="_blank">Brown
             CNTR lab</a>, and a project manager at <a href="https://fullstackatbrown.github.io/website/" target="_blank"> Full Stack @ Brown </a>.
