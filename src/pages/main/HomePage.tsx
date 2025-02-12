@@ -17,7 +17,7 @@ export default function HomePage() {
             optimizations in C++.
           </p>
           <p>
-            Previously, I completed SWE internships at <a href="https://www.usaa.com/">USAA</a> and <a href="https://www.wingspans.com/" target="_blank">Wingspans (Tech Stars '24)</a>, as well as conducted ML research with{" "}
+            Previously, I completed SWE internships at <a href="https://www.usaa.com/" target="_blank">USAA</a> and <a href="https://www.wingspans.com/" target="_blank">Wingspans (Tech Stars '24)</a>, as well as conducted ML research with{" "}
             <a href="https://vivo.brown.edu/display/suresh#" target="_blank">
               Brown CNTR lab
             </a>
