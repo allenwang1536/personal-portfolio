@@ -10,18 +10,25 @@ export default function HomePage() {
         </h1>
         <div id="intro">
           <p>
-            I'm a student at <b>Brown University</b> studying Computer Science.
+            I'm a student at <b>Brown University</b> studying Computer Science and Applied Mathematics.
           </p>
           <p>
-            I recently completed a SWE Internship at <b>USAA Bank</b>, where I developed backend solutions to securely
-            deliver user data. Previously, I was a SWE intern at <a href="https://www.wingspans.com/" target="_blank">Wingspans (Tech Stars '24)</a>, a researcher at <a href="https://vivo.brown.edu/display/suresh#" target="_blank">Brown
-            CNTR lab</a>, and a project manager at <a href="https://fullstackatbrown.github.io/website/" target="_blank"> Full Stack @ Brown </a>.
+            This summer, I'll be completing a SWE internship at <b>Chicago Trading Company</b> focusing on low-latency
+            optimizations in C++.
           </p>
+          <p>
+            Previously, I completed SWE internships at <a href="https://www.usaa.com/">USAA</a> and <a href="https://www.wingspans.com/" target="_blank">Wingspans (Tech Stars '24)</a>, as well as conducted ML research with{" "}
+            <a href="https://vivo.brown.edu/display/suresh#" target="_blank">
+              Brown CNTR lab
+            </a>
+            .
+          </p>
+
           <p>When I'm not coding, you can find me running by the river, reading YA novels, or watching NBA.</p>
           <p>Thanks for dropping by!</p>
         </div>
         <div id="social">
-        <a href="https://github.com/allenwang1536" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/allenwang1536" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github" />
           </a>
           <a href="https://www.linkedin.com/in/allen-wang1536/" target="_blank" rel="noopener noreferrer">
