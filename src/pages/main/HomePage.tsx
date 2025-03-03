@@ -13,8 +13,7 @@ export default function HomePage() {
             I'm a student at <b>Brown University</b> studying Computer Science and Applied Mathematics.
           </p>
           <p>
-            This summer, I'll be completing a SWE internship at <b>Chicago Trading Company</b> focusing on low-latency
-            optimizations in C++.
+            This summer, I'll be completing a SWE internship at <b>Chicago Trading Company</b>.
           </p>
           <p>
             Previously, I completed SWE internships at <a href="https://www.usaa.com/" target="_blank">USAA</a> and <a href="https://www.wingspans.com/" target="_blank">Wingspans (Tech Stars '24)</a>, as well as conducted ML research with{" "}
