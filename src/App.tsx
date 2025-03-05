@@ -27,9 +27,13 @@ function ScrollToTop() {
   return null;
 }
 
+const PageTracker = () => {
+  usePageTracking();
+  return null;
+};
+
 
 function App() {
-  usePageTracking();
 
   const [addClass, setAddClass] = useState(window.innerWidth > 1100);
 
@@ -38,13 +42,8 @@ function App() {
       setAddClass(window.innerWidth > 968);
     };
 
-    // Add event listener
     window.addEventListener('resize', handleResize);
-
-    // Call handler right away so state gets updated with initial window size
     handleResize();
-
-    // Remove event listener on cleanup
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -52,6 +51,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <PageTracker />
         <ScrollToTop />
         <NavBar />
         <Routes>
@@ -71,4 +71,6 @@ function App() {
 }
 
 export default App;
+
+
 
