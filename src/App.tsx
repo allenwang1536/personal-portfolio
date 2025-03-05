@@ -11,6 +11,11 @@ import EastSidePocketsPage from "./pages/projects/EastSidePocketsPage";
 import SportsCardShop from "./pages/projects/SportsCardShop";
 import ResumePage from "./pages/main/ResumePage";
 import IgniteCSPage from "./pages/projects/IgniteCSPage";
+import ReactGA from "react-ga4";
+import usePageTracking from "./hooks/usePageTracking";
+
+
+ReactGA.initialize("G-H5YFLZE3TV");
 
 function ScrollToTop() {
   const location = useLocation();
@@ -24,6 +29,8 @@ function ScrollToTop() {
 
 
 function App() {
+  usePageTracking();
+
   const [addClass, setAddClass] = useState(window.innerWidth > 1100);
 
   useEffect(() => {
